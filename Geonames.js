@@ -1,7 +1,7 @@
 $('#button').click(function() {
 
     $.ajax({
-        url: "libraries/Geonames.php",
+        url: "Geonames.php",
         type: 'POST',
         dataType: 'json',
         data: {
